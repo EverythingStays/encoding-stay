@@ -1,6 +1,6 @@
 {
   "name": "encoding",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Convert encodings, uses iconv by default and fallbacks to iconv-lite if needed",
   "main": "lib/encoding.js",
   "scripts": {
@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "nodeunit": "~0.8.1"
+  },
+  "esDependencies": {
+    "iconv-lite": "QmSMhkXc3gJ9zPVFgYV2Wo7EC44KBPd277nv4Von4YgCJE"
   }
 }
